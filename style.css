@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    min-height: 100vh;
+    width: 100%;
+    color: rgb(8, 8, 8);
+}
+
+.title {
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.row {
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0
+}
+
+.main {
+    background-color: #f1f2f5;
+    width: 85%;
+    min-height: 75vh;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    ;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+
+#all-task {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    ;
+}
+
+.btn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.btn-edit {
+
+    color: #EC4899;
+}
+
+.btn-delete {
+    color: red;
+}
+
+.task-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.task {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
